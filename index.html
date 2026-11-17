@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Duolingo Access – ASL course concept mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Lexend,system-ui,sans-serif;color:#1C1917;background:#E7E5E4}
+a{color:#0F5F59;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+.screen{display:none}
+.screen.on{display:flex}
+.phone{width:100%;max-width:430px;min-height:100vh;min-height:100dvh;margin:0 auto;background:#FBFAF7;flex-direction:column;box-shadow:0 0 0 1px #D6D3D1}
+.web{flex-direction:column;background:#FBFAF7;min-height:100vh}
+.banner{background:#1C1917;color:#E7E5E4;font-size:12px;text-align:center;padding:6px 10px}
+.top{display:flex;align-items:center;justify-content:space-between;padding:16px 18px 12px;border-bottom:1px solid #E7E2D9}
+.badge{width:40px;height:40px;border-radius:12px;background:#0F766E;display:flex;align-items:center;justify-content:center}
+.iconbtn{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#1C1917;background:none;border:none}
+.unit{margin:16px 18px 0;padding:16px 18px;border-radius:18px;background:#0F766E;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.path{flex-grow:1;display:flex;flex-direction:column;align-items:center;gap:10px;padding:16px 0 8px}
+.node{width:56px;height:56px;border-radius:50%;background:#E7E2D9;box-shadow:0 5px 0 #D6CFC2;display:flex;align-items:center;justify-content:center;color:#57534E;font-weight:600}
+.card{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-radius:14px;background:#fff;border:1px solid #E7E2D9}
+nav.tabs{margin-top:14px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid #E7E2D9;background:#fff;padding:8px 6px 18px}
+nav.tabs a{display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 0;color:#57534E;font-size:11px;font-weight:500}
+.opt{height:60px;border-radius:14px;border:2px solid #E7E2D9;background:#fff;box-shadow:0 3px 0 #E7E2D9;font-size:16px;font-weight:600;color:#1C1917}
+.vbtn{flex-grow:1;height:44px;border-radius:12px;border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;font-size:13px;font-weight:500}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.grid{display:grid;gap:14px}
+@media (max-width:600px){h1.hero{font-size:2.2rem!important}}
+</style>
+</head>
+<body>
+<div class="banner">Concept mockup for a student marketing project. Not a Duolingo product.</div>
+
+<!-- 1. Course path -->
+<section id="home" class="screen phone" aria-label="ASL course path">
+<div class="top">
+<div style="display:flex;align-items:center;gap:10px">
+<div class="badge"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V12"/><path d="M11 11V4.5a1.5 1.5 0 0 1 3 0V12"/><path d="M14 11.5V6a1.5 1.5 0 0 1 3 0v8a6 6 0 0 1-6 6h-.5a6 6 0 0 1-4.6-2.2L3.6 15a1.6 1.6 0 0 1 2.4-2.1L8 15"/></svg></div>
+<div style="display:flex;flex-direction:column"><span style="font-size:12px;color:#57534E">Sign languages</span><span style="font-size:16px;font-weight:600">American Sign Language</span></div>
+</div>
+<div style="display:flex;align-items:center;gap:6px">
+<span style="display:flex;align-items:center;gap:4px;padding:6px 10px;border-radius:999px;background:#FFF1E6;color:#9A3412;font-size:14px;font-weight:600"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c1 3 5 5 5 10a5 5 0 0 1-10 0c0-2.5 1.5-4 2.5-5 .3 1.6 1.2 2.6 2.5 3 0-3-1-5.5 0-8z"/></svg>3</span>
+<a href="#share" class="iconbtn" aria-label="Share this course"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/><path d="M7 8l5-5 5 5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg></a>
+</div>
+</div>
+<div class="unit">
+<div style="display:flex;flex-direction:column;gap:4px">
+<span style="font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#CCFBF1">Unit 1 · 0 of 5 lessons</span>
+<span style="font-size:19px;font-weight:600">Fingerspelling A–Z</span>
+<span style="font-size:13px;color:#E6FFFA">Spell your name and simple words</span>
+</div>
+<button aria-label="Open unit guide" style="width:48px;height:48px;border-radius:14px;border:1.5px solid rgba(255,255,255,.5);background:transparent;color:#fff;display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M9 7h6"/></svg></button>
+</div>
+<div class="path">
+<a href="#lesson" style="display:flex;flex-direction:column;align-items:center;gap:6px;margin-right:60px">
+<span style="width:64px;height:64px;border-radius:50%;background:#0F766E;box-shadow:0 5px 0 #0B4743;display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;font-weight:700">A–E</span>
+<span style="font-size:12px;font-weight:600;color:#0F5F59;background:#E6F4F1;padding:3px 10px;border-radius:999px">Start</span>
+</a>
+<span class="node" style="margin-left:60px">F–J</span>
+<span class="node" style="margin-right:40px">K–O</span>
+<span class="node" style="margin-left:50px">P–T</span>
+<span class="node" style="margin-right:30px">U–Z</span>
+</div>
+<div style="margin:0 18px;display:flex;flex-direction:column;gap:8px">
+<span style="font-size:13px;font-weight:600;color:#57534E">Up next</span>
+<div class="card"><div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:12px;color:#57534E">Unit 2</span><span style="font-size:15px;font-weight:600">Greetings and introductions</span></div><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#78716C" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+<div class="card"><div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:12px;color:#57534E">Unit 3</span><span style="font-size:15px;font-weight:600">Numbers 1–20</span></div><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#78716C" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+</div>
+<nav class="tabs" aria-label="Main">
+<a href="#home" style="color:#0F766E;font-weight:600"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Learn</a>
+<a href="#lesson"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg>Practise</a>
+<a href="#home"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>Deaf culture</a>
+<a href="#home"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Profile</a>
+</nav>
+</section>
+
+<!-- 2. Lesson -->
+<section id="lesson" class="screen phone" aria-label="ASL lesson">
+<div style="display:flex;align-items:center;gap:12px;padding:16px 18px 10px 10px">
+<a href="#home" class="iconbtn" aria-label="Close lesson" style="color:#57534E"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></a>
+<div role="progressbar" aria-label="Lesson progress" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="flex-grow:1;height:14px;border-radius:999px;background:#E7E2D9;overflow:hidden"><div style="width:30%;height:14px;border-radius:999px;background:#0F766E"></div></div>
+<span style="font-size:14px;font-weight:600;color:#57534E">3 / 10</span>
+</div>
+<div style="padding:6px 18px 0;display:flex;flex-direction:column;gap:4px">
+<span style="font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#0F5F59">New sign</span>
+<h1 style="margin:0;font-size:22px;font-weight:600">What does this sign mean?</h1>
+</div>
+<div style="margin:14px 18px 0;border-radius:18px;background:#1C1917;height:250px;display:flex;flex-direction:column;justify-content:space-between;padding:14px;color:#fff">
+<div style="display:flex;justify-content:space-between"><span style="font-size:12px;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.14)">Deaf instructor</span><span style="font-size:12px;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.14)">No sound needed</span></div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Video placeholder"><circle cx="12" cy="12" r="10"/><path d="M10 8.5v7l6-3.5z"/></svg><span style="font-size:13px;color:#D6D3D1">[Video: instructor signs one word]</span></div>
+<div style="display:flex;gap:8px"><button class="vbtn">Replay</button><button class="vbtn">0.5× slow</button><button class="vbtn">Mirror</button></div>
+</div>
+<div id="opts" style="margin:16px 18px 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px">
+<button class="opt" aria-pressed="false">Thank you</button>
+<button class="opt" aria-pressed="false">Hello</button>
+<button class="opt" aria-pressed="false">Please</button>
+<button class="opt" aria-pressed="false">Sorry</button>
+</div>
+<a href="#home" style="margin:14px 18px 0;display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;border:1px dashed #A8A29E;color:#1C1917">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F766E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg>
+<span style="display:flex;flex-direction:column"><span style="font-size:14px;font-weight:600">Try it yourself</span><span style="font-size:12px;color:#57534E">Sign to your camera for handshape feedback</span></span>
+</a>
+<div style="flex-grow:1;min-height:16px"></div>
+<div id="fb" hidden style="padding:14px 18px;display:flex;flex-direction:column;gap:2px"><span id="fbT" style="font-size:17px;font-weight:700"></span><span id="fbB" style="font-size:14px"></span></div>
+<div id="bar" style="padding:12px 18px 26px"><button id="check" style="width:100%;height:52px;border-radius:14px;border:none;background:#E7E2D9;color:#78716C;font-size:16px;font-weight:700;letter-spacing:.04em;text-transform:uppercase">Check</button></div>
+</section>
+
+<!-- 3. Share -->
+<section id="share" class="screen phone" aria-label="Share the course" style="background:#57534E;justify-content:flex-end">
+<div style="background:#FBFAF7;border-radius:26px 26px 0 0;padding:10px 18px 28px;display:flex;flex-direction:column;gap:16px">
+<div style="align-self:center;width:40px;height:5px;border-radius:999px;background:#D6D3D1"></div>
+<div style="display:flex;align-items:center;justify-content:space-between"><h1 style="margin:0;font-size:20px;font-weight:600">Share this course</h1><a href="#home" class="iconbtn" aria-label="Close" style="color:#57534E"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></a></div>
+<div style="display:flex;gap:14px;align-items:center;padding:16px;border-radius:18px;background:#0F766E;color:#fff">
+<div style="width:56px;height:56px;border-radius:14px;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;flex-shrink:0"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V12"/><path d="M11 11V4.5a1.5 1.5 0 0 1 3 0V12"/><path d="M14 11.5V6a1.5 1.5 0 0 1 3 0v8a6 6 0 0 1-6 6h-.5a6 6 0 0 1-4.6-2.2L3.6 15a1.6 1.6 0 0 1 2.4-2.1L8 15"/></svg></div>
+<div style="display:flex;flex-direction:column;gap:3px"><span style="font-size:18px;font-weight:600">Learn American Sign Language</span><span style="font-size:13px;color:#CCFBF1">For English speakers · 5 units · Free</span></div>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px">
+<label for="courseLink" style="font-size:13px;font-weight:600;color:#57534E">Course link</label>
+<div style="display:flex;gap:8px"><input id="courseLink" readonly value="duolingo.com/course/ase/en/Learn-American-Sign-Language" style="flex-grow:1;min-width:0;height:48px;padding:0 12px;border-radius:12px;border:1.5px solid #D6D3D1;background:#fff;font-family:inherit;font-size:13px;color:#1C1917"><button id="copy" style="width:92px;height:48px;border-radius:12px;border:none;background:#0F766E;color:#fff;font-size:14px;font-weight:600">Copy</button></div>
+<span style="font-size:12px;color:#57534E">Same pattern as other course links. “ase” is the code for ASL.</span>
+</div>
+<a href="#course" style="display:flex;align-items:center;justify-content:center;gap:8px;height:48px;border-radius:12px;border:1.5px solid #0F766E;color:#0F5F59;font-size:15px;font-weight:600">Open link <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg></a>
+<div style="display:flex;gap:12px;padding:14px;border-radius:16px;background:#FFF1E6">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9A3412" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M15 20a4 4 0 0 1 6-3.5"/></svg>
+<div style="display:flex;flex-direction:column;gap:3px"><span style="font-size:14px;font-weight:600;color:#7C2D12">Learning to sign with someone?</span><span style="font-size:13px;color:#7C2D12">Invite family and friends so you can practise together and share a streak.</span></div>
+</div>
+</div>
+</section>
+
+<!-- 4. Course page -->
+<section id="course" class="screen web" aria-label="Course page">
+<div style="border-bottom:1px solid #E7E2D9;background:#fff"><div class="wrap" style="padding-top:14px;padding-bottom:14px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px">
+<div style="display:flex;align-items:center;gap:10px"><span style="font-size:20px;font-weight:700;color:#0F766E">Duolingo Access</span><span style="font-size:12px;padding:3px 10px;border-radius:999px;background:#F5F5F4;color:#57534E">Concept</span></div>
+<div style="display:flex;gap:10px"><a href="#home" style="padding:12px 18px;border-radius:12px;border:1.5px solid #D6D3D1;color:#1C1917;font-size:14px;font-weight:600">Log in</a><a href="#home" style="padding:12px 18px;border-radius:12px;background:#0F766E;color:#fff;font-size:14px;font-weight:600">Get started</a></div>
+</div></div>
+<div class="wrap" style="padding-top:56px;padding-bottom:48px;display:flex;flex-wrap:wrap;gap:40px;align-items:center">
+<div style="flex:999 1 420px;min-width:0;display:flex;flex-direction:column;gap:18px">
+<span style="font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#0F5F59">Sign languages · For English speakers</span>
+<h1 class="hero" style="margin:0;font-size:3.2rem;line-height:1.08;font-weight:700">Learn American Sign Language for free</h1>
+<p style="margin:0;font-size:1.15rem;line-height:1.6;color:#44403C;max-width:34rem">Short video lessons taught by Deaf instructors. Every lesson has captions and needs no sound, and you can slow signs down or practise to your camera.</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap"><a href="#home" style="padding:16px 26px;border-radius:14px;background:#0F766E;color:#fff;font-size:16px;font-weight:700">Start learning ASL</a><a href="#units" style="padding:16px 26px;border-radius:14px;border:1.5px solid #D6D3D1;color:#1C1917;font-size:16px;font-weight:600">See the course</a></div>
+<span style="font-size:13px;color:#57534E">[Learner count once live] · Co-designed with Deaf educators</span>
+</div>
+<div style="flex:1 1 320px;min-width:0;height:20rem;border-radius:24px;background:#1C1917;color:#D6D3D1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:16px">
+<svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Video placeholder"><circle cx="12" cy="12" r="10"/><path d="M10 8.5v7l6-3.5z"/></svg>
+<span style="font-size:14px">[Course trailer: Deaf instructor signs “Welcome”]</span>
+</div>
+</div>
+<div id="units" style="background:#fff;border-top:1px solid #E7E2D9;border-bottom:1px solid #E7E2D9"><div class="wrap" style="padding-top:48px;padding-bottom:48px;display:flex;flex-direction:column;gap:22px">
+<h2 style="margin:0;font-size:2rem;font-weight:600">What you’ll learn</h2>
+<div class="grid" id="unitGrid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))"></div>
+</div></div>
+<div class="wrap" style="padding-top:48px;padding-bottom:48px;display:flex;flex-direction:column;gap:22px">
+<h2 style="margin:0;font-size:2rem;font-weight:600">Built for every learner</h2>
+<div class="grid" id="featGrid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))"></div>
+</div>
+<div class="wrap" style="padding-bottom:48px">
+<div style="padding:24px;border-radius:22px;border:1px solid #E7E2D9;background:#fff;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
+<div style="flex:999 1 340px;min-width:0;display:flex;flex-direction:column;gap:6px"><h2 style="margin:0;font-size:1.5rem;font-weight:600">More sign languages</h2><p style="margin:0;font-size:15px;line-height:1.6;color:#57534E">Sign languages are distinct languages, so each launches with local Deaf educators and by local demand.</p></div>
+<div id="others" style="flex:1 1 300px;min-width:0;display:flex;flex-direction:column;gap:8px"></div>
+</div>
+</div>
+<div style="border-top:1px solid #E7E2D9"><div class="wrap" style="padding-top:22px;padding-bottom:22px;font-size:13px;color:#57534E">Concept mockup for a student marketing project (Duolingo Access). Not a Duolingo product or page.</div></div>
+</section>
+
+<script>
+// Screen switching by URL hash (#home, #lesson, #share, #course)
+var screens = ['home','lesson','share','course'];
+function show(){
+  var h = (location.hash || '#home').slice(1);
+  if (h === 'units') { h = 'course'; }
+  if (screens.indexOf(h) < 0) { h = 'home'; }
+  screens.forEach(function(id){ document.getElementById(id).classList.toggle('on', id === h); });
+  if (location.hash !== '#units') { window.scrollTo(0,0); }
+  else { setTimeout(function(){ document.getElementById('units').scrollIntoView(); }, 0); }
+}
+window.addEventListener('hashchange', show);
+show();
+
+// Lesson logic
+var picked = null, checked = false, correct = 'Hello';
+var opts = Array.prototype.slice.call(document.querySelectorAll('#opts .opt'));
+var checkBtn = document.getElementById('check'), fb = document.getElementById('fb'), bar = document.getElementById('bar');
+function paintLesson(){
+  opts.forEach(function(b){
+    var l = b.textContent, border = '#E7E2D9', bg = '#fff';
+    if (picked === l) { border = '#0F766E'; bg = '#E6F4F1'; }
+    if (checked && l === correct) { border = '#15803D'; bg = '#DCFCE7'; }
+    if (checked && picked === l && l !== correct) { border = '#B91C1C'; bg = '#FEE2E2'; }
+    b.style.borderColor = border; b.style.background = bg; b.style.boxShadow = '0 3px 0 ' + border;
+    b.setAttribute('aria-pressed', picked === l ? 'true' : 'false');
+  });
+  var right = picked === correct;
+  fb.hidden = !checked;
+  fb.style.background = right ? '#DCFCE7' : '#FEE2E2';
+  fb.style.color = right ? '#14532D' : '#7F1D1D';
+  document.getElementById('fbT').textContent = right ? 'Nice signing eye!' : 'Not quite';
+  document.getElementById('fbB').textContent = right ? 'HELLO: flat hand moves out from the forehead, like a salute.' : 'This sign is HELLO: flat hand moves out from the forehead.';
+  bar.style.background = checked ? (right ? '#DCFCE7' : '#FEE2E2') : '#FBFAF7';
+  checkBtn.style.background = picked ? (checked ? (right ? '#15803D' : '#B91C1C') : '#0F766E') : '#E7E2D9';
+  checkBtn.style.color = picked ? '#fff' : '#78716C';
+  checkBtn.textContent = checked ? 'Continue' : 'Check';
+}
+opts.forEach(function(b){ b.addEventListener('click', function(){ if (!checked) { picked = b.textContent; paintLesson(); } }); });
+checkBtn.addEventListener('click', function(){
+  if (!picked) return;
+  if (checked) { picked = null; checked = false; } else { checked = true; }
+  paintLesson();
+});
+paintLesson();
+
+// Share: copy button
+document.getElementById('copy').addEventListener('click', function(){
+  var b = this, v = document.getElementById('courseLink').value;
+  try { if (navigator.clipboard) navigator.clipboard.writeText(v); } catch (e) {}
+  b.textContent = 'Copied'; b.style.background = '#15803D';
+});
+
+// Course page content
+var units = [
+  ['Unit 1','Fingerspelling A–Z','Spell your name and short words with the manual alphabet.'],
+  ['Unit 2','Greetings and introductions','Hello, nice to meet you, and how to get someone’s attention politely.'],
+  ['Unit 3','Numbers 1–20','Count, give your age and share a phone number.'],
+  ['Unit 4','Family and people','Talk about family members and describe people.'],
+  ['Unit 5','Deaf culture and etiquette','Eye contact, turn-taking and the Deaf community.']
+];
+var ug = document.getElementById('unitGrid');
+units.forEach(function(u){
+  var d = document.createElement('div');
+  d.style.cssText = 'padding:20px;border-radius:18px;border:1px solid #E7E2D9;background:#FBFAF7;display:flex;flex-direction:column;gap:8px';
+  d.innerHTML = '<span style="font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#0F5F59"></span><span style="font-size:18px;font-weight:600"></span><span style="font-size:14px;line-height:1.5;color:#57534E"></span>';
+  d.children[0].textContent = u[0]; d.children[1].textContent = u[1]; d.children[2].textContent = u[2];
+  ug.appendChild(d);
+});
+var feats = [
+  ['Captions on everything','Every instruction is written as well as signed. No audio needed.'],
+  ['Slow motion and mirror','Replay any sign at half speed or mirrored for left-handed signers.'],
+  ['Camera practice','Sign to your camera and get handshape feedback.'],
+  ['Works with screen readers','Course pages and controls are labelled for assistive technology.']
+];
+var fg = document.getElementById('featGrid');
+feats.forEach(function(f){
+  var d = document.createElement('div');
+  d.style.cssText = 'display:flex;flex-direction:column;gap:4px;padding:18px;border-radius:18px;background:#E6F4F1;color:#134E4A';
+  d.innerHTML = '<span style="font-size:16px;font-weight:600"></span><span style="font-size:14px;line-height:1.5"></span>';
+  d.children[0].textContent = f[0]; d.children[1].textContent = f[1];
+  fg.appendChild(d);
+});
+var others = [
+  ['British Sign Language','duolingo.com/course/bfi/en/Learn-British-Sign-Language'],
+  ['Hong Kong Sign Language','duolingo.com/course/hks/zh/Learn-Hong-Kong-Sign-Language']
+];
+var og = document.getElementById('others');
+others.forEach(function(o){
+  var d = document.createElement('div');
+  d.style.cssText = 'display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 14px;border-radius:12px;background:#F5F5F4';
+  d.innerHTML = '<span style="display:flex;flex-direction:column;min-width:0"><span style="font-size:15px;font-weight:600"></span><span style="font-size:12px;color:#57534E;overflow-wrap:anywhere"></span></span><span style="font-size:12px;font-weight:600;padding:4px 10px;border-radius:999px;background:#FFF1E6;color:#9A3412;white-space:nowrap">Coming soon</span>';
+  d.querySelector('span span').textContent = o[0];
+  d.querySelectorAll('span span')[1].textContent = o[1];
+  og.appendChild(d);
+});
+</script>
+</body>
+</html>
